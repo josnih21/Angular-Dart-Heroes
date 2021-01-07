@@ -1,5 +1,6 @@
 import 'package:angular/angular.dart';
 import 'package:angular_router/angular_router.dart';
+import 'package:angular_tour_of_heroes/src/components/hero_search_component/hero_search_component.dart';
 import 'package:angular_tour_of_heroes/src/route_paths.dart';
 
 import 'hero.dart';
@@ -9,7 +10,7 @@ import 'hero_service.dart';
   selector: 'my-dashboard',
   templateUrl: 'dashboard_component.html',
   styleUrls: ['dashboard_component.css'],
-  directives: [routerDirectives, coreDirectives],
+  directives: [routerDirectives, HeroSearchComponent, coreDirectives],
 )
 class DashboardComponent implements OnInit {
   List<Hero> heroes;
