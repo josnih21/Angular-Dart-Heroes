@@ -1,14 +1,14 @@
 import 'hero.dart';
 
 final List<Hero> mockHeroes = [
-  Hero(11, 'Mr. Nice'),
-  Hero(12, 'Narco'),
-  Hero(13, 'Bombasto'),
-  Hero(14, 'Celeritas'),
-  Hero(15, 'Magneta'),
-  Hero(16, 'RubberMan'),
-  Hero(17, 'Dynama'),
-  Hero(18, 'Dr IQ'),
-  Hero(19, 'Magma'),
-  Hero(20, 'Tornado')
+  Hero(11, 'SpiderCerdo'),
+  Hero(12, 'Freeze Corleone'),
+  Hero(13, 'Cabesa Buke'),
+  Hero(14, 'El cabesita'),
+  Hero(15, 'Illo Uan'),
+  Hero(16, 'Maikel of the Street'),
+  Hero(17, 'Elba Silon'),
+  Hero(18, 'Paco Munista'),
+  Hero(19, 'Killo Cabesa'),
+  Hero(20, 'Capricornio TV')
 ];
